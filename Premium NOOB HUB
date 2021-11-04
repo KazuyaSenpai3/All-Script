@@ -2,7 +2,7 @@ if game:GetService("CoreGui"):FindFirstChild("NOOBHUB") then
     game:GetService("CoreGui"):FindFirstChild("NOOBHUB"):Destroy()
 end
 local Config = {
-    WindowName = "NOOB HUB -- [ All Script ]",
+    WindowName = "NOOB HUB -- [ Script Premiume]",
     Color = Color3.fromRGB(0,183,255),
     Keybind = Enum.KeyCode.RightControl
 }
