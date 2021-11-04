@@ -1,0 +1,54 @@
+if game:GetService("CoreGui"):FindFirstChild("NOOBHUB") then
+    game:GetService("CoreGui"):FindFirstChild("NOOBHUB"):Destroy()
+end
+local Config = {
+    WindowName = "NOOB HUB -- [ All Script ]",
+    Color = Color3.fromRGB(0,183,255),
+    Keybind = Enum.KeyCode.RightControl
+}
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/Roblox/main/BracketV3.lua"))()
+local Window = Library:CreateWindow(Config, game:GetService("CoreGui"))
+for i,v in pairs(game:GetService("CoreGui"):GetDescendants()) do
+    if v.Name == "ToolTip" then
+        v.Parent.Name = "NOOBHUB"
+    end
+end
+local Tab1 = Window:CreateTab("Main")
+local Section1 = Tab1:CreateSection("Main")
+local Label1 = Section1:CreateLabel("Credit : NOOB HUB")
+local Label1 = Section1:CreateLabel("Discord : https://discord.gg/dY8rpSktyn")
+local Button1 = Section1:CreateButton("Copy Discord", function()
+setclipboard("https://discord.gg/dY8rpSktyn")
+end)
+local Button1 = Section1:CreateButton("Destroy GUI", function()
+game:GetService("CoreGui"):FindFirstChild("NOOBHUB"):Destroy()
+end)
+local Section1 = Tab1:CreateSection("NOOB HUB")
+local Button1 = Section1:CreateButton("Saber Simulator", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/koio08199za/HACKNOOB/main/Saber%20Simulator.lua"))()
+end)
+local Button1 = Section1:CreateButton("Anime Tappers", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/koio08199za/Anime-Teppers/main/NOOB%20HUB.Lua"))()
+end)
+local Button1 = Section1:CreateButton("Tapping Titans Simulator", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/koio08199za/Tapping-Titans-Simulator/main/NOOB%20HUB.Lua"))()
+end)
+local Button1 = Section1:CreateButton("Build A Boat For Treasure", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/koio08199za/Build-A-Boat-For-Treasure/main/NOOB%20HUB.Lua"))()
+
+end)
+local Button1 = Section1:CreateButton("King Legacy", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/koio08199za/King-Legacy-/main/NOOB%20HUB.Lua"))()
+
+end)
+local Button1 = Section1:CreateButton("The mimic New", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/koio08199za/THEMIMIC/main/NOOBHUB.Lua"))()
+
+end)
+local Button1 = Section1:CreateButton("Dog Piece", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/koio08199za/Dog-Piece/main/NOOB%20HUB.Lua"))()
+end)
+local Button1 = Section1:CreateButton("Last Pirates", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/koio08199za/Last-Pirates/main/NOOB%20HUB.Lua"))()
+end)
