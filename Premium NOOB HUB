@@ -42,9 +42,11 @@ local Button1 = Section1:CreateButton("King Legacy", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/koio08199za/King-Legacy-/main/NOOB%20HUB.Lua"))()
 
 end)
-local Button1 = Section1:CreateButton("The mimic New", function()
+local Button1 = Section1:CreateButton("The mimic V1", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/koio08199za/THEMIMIC/main/NOOBHUB.Lua"))()
-
+end)
+local Button1 = Section1:CreateButton("The mimic V2", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/koio08199za/THEMIMIC/main/NOOB%20HUB()V2.Lua"))()
 end)
 local Button1 = Section1:CreateButton("Dog Piece", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/koio08199za/Dog-Piece/main/NOOB%20HUB.Lua"))()
